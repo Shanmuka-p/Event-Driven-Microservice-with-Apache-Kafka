@@ -58,7 +58,7 @@ Define a UserEvent structure (JSON object) for messages to be published to Kafka
   "userId": "STRING",
   "eventType": "LOGIN | LOGOUT | PRODUCT_VIEW",
   "timestamp": "ISO_8601_STRING",
-  "payload": {}
+  "payload": {1}
 }
 eventId: A unique identifier for the event (e.g., UUID).
 userId: Identifier for the user performing the action.

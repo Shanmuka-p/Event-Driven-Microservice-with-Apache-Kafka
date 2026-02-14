@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Objective\r Build a foundational microservice that acts as both an Apache Kafka producer and consumer. This task aims to provide deep, practical experience with event-driven architecture, a critical paradigm for building scalable and resilient distributed systems. You will learn Apache Kafka fundamentals, including topics, producers, consumers, consumer groups, and message serialization. Furthermore, you will implement core concepts of event definition, publishing, and consumption, alongside handling idempotency and basic error management in a distributed messaging environment. This project will solidify your skills in building resilient, scalable backend components crucial for modern high-performing applications and prepare you for advanced backend engineering roles.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+ "scripts": {
+  "start": "node index.js",
+  "test": "jest --runInBand"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Shanmuka-p/Event-Driven-Microservice-with-Apache-Kafka.git"

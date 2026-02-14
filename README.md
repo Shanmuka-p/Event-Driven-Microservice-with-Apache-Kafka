@@ -150,7 +150,7 @@ curl -X POST http://localhost:3000/events/generate \
 To run the tests, execute the following command:
 
 ```bash
-npm test
+npm run test
 ```
 
 ## Error Handling Strategy
@@ -170,7 +170,7 @@ Idempotency is achieved by assigning a unique `eventId` to each event. The consu
 
 - **Dead Letter Queue (DLQ):** Implement a DLQ for handling failed messages.
 - **Database:** Replace in-memory storage with a persistent database like PostgreSQL or MongoDB.
-- **Monitoring:** Add monitoring and logging to track the health of the service.
+-- **Monitoring:** Add monitoring and logging to track the health of the service.
 
 ## How to Run with Docker
 
@@ -181,7 +181,7 @@ docker-compose up -d
 ## How to Run Tests
 
 ```bash
-docker-compose exec api npm test
+docker-compose exec api npm run test
 ```
 
 ## Screenshots / Demo Section
